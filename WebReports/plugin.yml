@@ -1,0 +1,5 @@
+name: WebReports
+version: 0.1
+author: CoasterFreak aka F1b3r
+description: WebReports for Bungeecord
+main: de.wr.main.Main
