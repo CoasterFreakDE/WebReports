@@ -466,6 +466,10 @@ public class ReportCommand extends Command
 				}
 				else if(status == 3) {
 					deleted++;
+					
+					if(set.getString("moderator").equalsIgnoreCase("none")) {
+						closedNotModerated++;
+					}
 				}
 			}
 		}catch(SQLException ex) { }
